@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sinus</title>
   <link rel="stylesheet" href="css/main.css">
+
+  <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
   
 </head>
 <body>
@@ -99,5 +107,26 @@
       </div>
     </div>
   </main>
+  <div class="pleer-bar">
+    <div class="container">
+      <audio id="player" src="November.mp3"></audio>
+    <div class="player">
+      <div class="control">
+        <i class="fas fa-play" id="playbtn"></i>
+      </div>
+      <div class="info">
+        Taylor Deupree - November
+        <div class="bar">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <div id="current">0:00</div>
+    </div>
+    </div>
+    
+
+    <script src="player.js"></script>
+  </div>
 </body>
 </html>

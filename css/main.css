@@ -211,3 +211,27 @@ main{
     overflow: hidden;
   }
 }
+
+.pleer-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: gainsboro;
+}
+
+.player{
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  grid-gap: 16px;
+}
+
+#progress {
+  margin-top: 10px;
+  display: blcok;
+  width: var(--progress,100%);
+  background-color:#000;
+  transition: all 1s linear;
+  height: 2px;
+}
