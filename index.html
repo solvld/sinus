@@ -16,7 +16,8 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="../res/fontawesome/css/all.css"/>
+  <link rel="icon" href="img/logo black 1.svg">
   
 </head>
 <body>
@@ -24,7 +25,7 @@
     <div class="container">
       <div class="header__body">
         <a href="" class="header__logo">
-          SIN
+          <img src="img/logo black 1.svg" alt="">
         </a>
         <div class="header__burger">
           <span></span>
@@ -32,13 +33,13 @@
         <nav class="header__menu">
           <ul class="header__list">
             <li>
-              <a href="" class="header__link">Радио</a>
+              <a href="" class="header__link">Radio</a>
             </li>
             <li>
-              <a href="" class="header__link">Лейбл</a>
+              <a href="" class="header__link">Label</a>
             </li>
             <li>
-              <a href="" class="header__link">О нас</a>
+              <a href="" class="header__link">About Us</a>
             </li>
           </ul>
         </nav>
@@ -51,73 +52,67 @@
   <main class="main">
     <div class="content">
       <div class="container">
-        <div class="content__card">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ullam laboriosam dolor quasi? Itaque hic voluptates qui at nihil repellendus, consequatur ea necessitatibus. Odit eveniet consequatur dolorem. Fugit, esse aspernatur.
-          </p>
-          <div class="layout">
-            <div class="c6">
-              <div class="block">
-                <img src="img/6.svg" alt="">
-              </div>
-            </div>
-            <div class="c2">
-              <div class="block">
-                <img src="img/2.svg" alt="">
-              </div>
-            </div>
-            <div class="c2">
-              <div class="block">
-                <img src="img/4.svg" alt="">
-              </div>
-            </div>
-            <div class="c2">
-              <div class="block">
-                <img src="img/5.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
-            <div class="c1">
-              <div class="block">
-                <img src="img/1.svg" alt="">
-              </div>
-            </div>
+
+        <h1 class="header_title">
+          Welcome to Sinus, <br>
+          <span>
+            an independent music ecosystem.
+          </span>
+        </h1>
+
+        <section class="post">
+          <img src="img/post-cover.png" alt="">
+
+          <div class="post_right">
+            <h2 class="post_title">
+              New release
+            </h2>
+            <p class="post_text">
+              Настоящая пластинка представляет собой сборник произведений, созданных в период с октября по декабрь 2005 года. Некоторые композиции были записаны в студии<span class="break-line">, некоторые на домашнем компьютере. Все записи сделаны на любительском уровне. В записи принимали участие: - Дмитрий Ермаков (гитара), Сергей "Zot" Зотов (бас), Александр "Pasha" Забродин (вокал, соло-гитара).В этом альбоме представлены песни, написанные в период между двумя сессиями записи альбома "На грани".</span><span class="break-line-act">....</span>
+            </p>
+
+            <a href="#" class="post_link">
+              Continue reading
+            </a>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </main>
-  <div class="pleer-bar">
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_content">
+        <div class="footer_info">
+          <a href="mailto:info@sinus.com">info@sinus.com</a>
+        </div>
+    
+        <div class="form">
+          <h3 class="form_title">
+            Subscribe For Updates
+          </h3>
+          <input 
+
+            type="email" 
+            name="" 
+            id=""
+            placeholder="Email*">
+          <button class="submit">
+            Subscribe!
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="player-bar">
     <div class="container">
       <audio id="player" src="November.mp3"></audio>
     <div class="player">
       <div class="control">
         <i class="fas fa-play" id="playbtn"></i>
       </div>
-      <div class="info">
+      <div class="player_info">
         Taylor Deupree - November
         <div class="bar">
           <div id="progress"></div>
